@@ -25,6 +25,8 @@ Use a 32-bit RISC-V core written in Verilog and an instruction set simulator sup
 
 ## Project 2: Memory hierarchy & Cache design
 **GOAL: Understand Memory Hierarchy and Cache Architecture**
+<br>
+<img width="968" alt="image" src="https://user-images.githubusercontent.com/37537248/156886696-839a308e-e92f-418a-95ed-a13475b19a1d.png">
 * Analyze the operation of the cache in the form of waveform
   * FSM of cache controller
   * `debug_cache_eviction_trace.txt`
