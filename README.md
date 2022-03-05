@@ -32,6 +32,6 @@ Use a 32-bit RISC-V core written in Verilog and an instruction set simulator sup
 * Verify the operation of pipelining and analyze results (verify pipeline stall)
 
 ## Project 4: Instruction set extension design
-**GOAL: Learn Data Path & Control Path of Instructions by each pipeline stages of RISC-V core**
+**GOAL: Understand Data Path & Control Path of Instructions by each pipeline stages of RISC-V core**
 * Understand RISC-V ISA
 * Design extended ISA in RTL-level and verify it through testbench
