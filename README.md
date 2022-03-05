@@ -24,7 +24,7 @@ Use a 32-bit RISC-V core written in Verilog and an instruction set simulator sup
 ## Project 2: Memory hierarchy & Cache design
 **GOAL: Understand Memory Hierarchy and Cache Architecture**
 * Analyze the operation of the cache in the form of waveform
-* Modify cache size to given condition and analyze results (verify performance improvement)
+* Modify cache size to given conditions and analyze results (verify performance improvement)
 
 ## Project 3: HPC (Hardware Performance counter) design
 **GOAL: Understand Performance Methodolgy & Metric of RISC-V core**
