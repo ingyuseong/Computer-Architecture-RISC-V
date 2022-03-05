@@ -18,17 +18,29 @@ Use a 32-bit RISC-V core written in Verilog and an instruction set simulator sup
 ## Project 1: RISC-V core design using Verilog & Project environment setting
 **GOAL: Project Environment Setting**
 * Set project environment based on [ModelSim-Intel FPGA Edition](https://www.intel.co.kr/content/www/kr/ko/software/programmable/quartus-prime/model-sim.html)
+* Install Cygwin & RISC-V cross compiler
 * Write a simple test code and verify execution
-* Analyze and draw block diagram of RISC-V core by referring to [the given code](https://github.com/ultraembedded/riscv)
+  * Calculate CPI
+* Draw and describe block diagram of RISC-V core by analyzing [the given code](https://github.com/ultraembedded/riscv)
 
 ## Project 2: Memory hierarchy & Cache design
 **GOAL: Understand Memory Hierarchy and Cache Architecture**
 * Analyze the operation of the cache in the form of waveform
+  * FSM of cache controller
+  * `debug_cache_eviction_trace.txt`
 * Modify cache size to given conditions and analyze results (verify performance improvement)
+  * D-cache: 2-way set associative 16K byte size, block granularity: 32 byte -> x2 cache block size
+  * Explain modified verilog source code
+  * `debug_cache_hit_count_trace.txt`, `debug_doubled_cache_hit_count_trace.txt`
+  * Caculate hit ratio
 
 ## Project 3: HPC (Hardware Performance counter) design
 **GOAL: Understand Performance Methodolgy & Metric of RISC-V core**
+* RISC-V registers & calling convention
+  * Explain the change in the stack layout of functions and the entire stack when each function is executed in the function calling sequence
+  * Verify and explain register values in the form of waveform
 * Design HPC which measure performance metric
+  * Explain HPC verilog source code
 * Verify the operation of pipelining and analyze results (verify pipeline stall)
 
 ## Project 4: Instruction set extension design
