@@ -1,0 +1,1 @@
+cache_access_count=       8325,	cache_hit_count=       3720
