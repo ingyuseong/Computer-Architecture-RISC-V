@@ -17,7 +17,7 @@ Use a 32-bit RISC-V core written in Verilog and an instruction set simulator sup
 
 ## Project 1: RISC-V core design using Verilog & Project environment setting
 **GOAL: Project Environment Setting**
-* Set project environment based on ModelSim-Intel FPGA Edition
+* Set project environment based on [ModelSim-Intel FPGA Edition](https://www.intel.co.kr/content/www/kr/ko/software/programmable/quartus-prime/model-sim.html)
 * Write a simple test code and verify execution
 * Analyze and draw block diagram of RISC-V core by referring to [the given code](https://github.com/ultraembedded/riscv)
 
